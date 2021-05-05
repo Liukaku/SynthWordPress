@@ -12,6 +12,14 @@ Author URI: https://gujoengineer.wp.com
   src: url(assets/fonts/SansationLight.ttf);
 }
 
+.sec1Background {
+  height: 92vh;
+  background: #e8277a;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(3%, #e8277a), color-stop(23%, #851559), to(rgba(18, 0, 50, 0)));
+  background: linear-gradient(0deg, #e8277a 3%, #851559 23%, rgba(18, 0, 50, 0) 100%);
+  z-index: 0;
+}
+
 .sec1 {
   height: 92vh;
   background-image: url(assets/images/heading.png);
@@ -20,6 +28,7 @@ Author URI: https://gujoengineer.wp.com
   background-position: bottom;
   font-family: Sansation;
   background-color: linear-gradient(90deg, #e8277a 0%, #851559 19%, #120032 47%);
+  z-index: 100;
 }
 
 .sec1 .btn-primary {
@@ -35,6 +44,8 @@ Author URI: https://gujoengineer.wp.com
   background-size: 40px 40px;
   background-image: linear-gradient(to right, #0272eb, #0272eb, #ff34b3, #414141 1px, transparent 1px), linear-gradient(to bottom, #201148, #090979, #ff34b3, #414141 1px, transparent 1px);
   font-family: Sansation;
+  -webkit-box-shadow: #fff;
+          box-shadow: #fff;
 }
 
 .sec2 .userText {

@@ -15,6 +15,7 @@ $the_query = new WP_Query(array(
 
 <div>
 
+  <div class="sec1Background">
   <section class="sec1 pt-5 pb-5">
 
     <div class="container">
@@ -38,6 +39,7 @@ $the_query = new WP_Query(array(
           <div class="sunImg"></div>
         </div>
       </div>
+    </div>
     </div>
 
   </section>
